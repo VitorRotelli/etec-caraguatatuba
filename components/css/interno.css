@@ -1,0 +1,32 @@
+:root {
+    --cinza-claro: #F8F8F8;
+    --azul-base: #005C6D;
+    --azul-titulos-hover: #005C6D;
+    --vermelho-base: #B20000;
+    --margin-left: 50px;
+    --margin-top-titulos: 50px;
+  }
+  
+  @font-face {
+    font-family: Etec;
+    src: url(../fontes/Roboto-Regular.ttf);
+  }
+  
+  @import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100..900&display=swap');
+  
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Etec";
+  }
+
+  /* Login */
+
+  .fundo-login{
+    position: absolute;
+    z-index: -1;
+    transform: rotate(180deg);
+  }
+
+  /* Final Login */
